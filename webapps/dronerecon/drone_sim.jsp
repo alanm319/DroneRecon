@@ -2,10 +2,7 @@
   <head>
     
       <%
-        // ###############################
-        // Create two int variables -- iCols and iRows -- and fill them with params passed in called "colcount" and "rowcount".
-        // You'll have to convert those incoming strings to ints.
-        // ###############################
+        
 
 	int iCols = Integer.parseInt(request.getParameter("colcount"));
 	int iRows = Integer.parseInt(request.getParameter("rowcount"));
